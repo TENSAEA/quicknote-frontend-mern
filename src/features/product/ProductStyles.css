@@ -1,0 +1,19 @@
+/* ProductStyles.css */
+.product-animation-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  .product-animation-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 500ms, transform 500ms;
+  }
+  .product-animation-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  .product-animation-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 500ms, transform 500ms;
+  }
