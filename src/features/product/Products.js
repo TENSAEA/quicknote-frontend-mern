@@ -128,7 +128,7 @@ const Products = () => {
             onClick={handleUpdateProduct}
             sx={{ mt: 2 }}
           >
-            Update Product
+            Update Note
           </Button>
         </Box>
       ) : (
@@ -159,7 +159,7 @@ const Products = () => {
             onClick={handleAddProduct}
             sx={{ mt: 2 }}
           >
-            Add Product
+            Add Note
           </Button>
         </Box>
       )}
