@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://quicknotes-api.onrender.com",
 });
 
 // Request interceptor for adding auth token
