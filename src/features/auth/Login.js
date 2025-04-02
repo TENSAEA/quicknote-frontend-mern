@@ -196,7 +196,7 @@ const Login = () => {
         </CardContent>
       </StyledCard>
       <FooterText>
-        © {new Date().getFullYear()} Your Company. All rights reserved.
+        © {new Date().getFullYear()} QuickNotes. All rights reserved.
         <br />
         <Link href="#" sx={{ color: '#fff', textDecoration: 'underline' }}>
           Privacy Policy
